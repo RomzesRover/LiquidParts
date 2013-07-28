@@ -15,12 +15,16 @@ int attr underlineColor 0x7f010001
 int attr underlineHeight 0x7f010004
 int color background_tab_pressed 0x7f040000
 int color background_wv 0x7f040001
+int color blue 0x7f040003
+int color divider 0x7f040004
+int color white 0x7f040002
 int dimen activity_horizontal_margin 0x7f070000
 int dimen activity_vertical_margin 0x7f070001
 int drawable background_tab 0x7f020000
 int drawable background_tabs 0x7f020001
 int drawable ic_launcher 0x7f020002
-int drawable tabs_pattern 0x7f020003
+int drawable ic_launcher_settings 0x7f020003
+int drawable tabs_pattern 0x7f020004
 int id Button01 0x7f0a0035
 int id ImageView01 0x7f0a0030
 int id ImageView02 0x7f0a0018

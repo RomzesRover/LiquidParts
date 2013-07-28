@@ -68,7 +68,7 @@
                                     android:layout_gravity="center"
                                     android:text="@string/enabled"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textColor="#666" />
+                                    android:textColor="#ccc" />
 
                                 <LinearLayout
                                     android:id="@+id/LinearLayout16"
@@ -117,7 +117,7 @@
                                     android:layout_gravity="center"
                                     android:text="@string/Swappiness"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textColor="#666" />
+                                    android:textColor="#ccc" />
 
                                 <LinearLayout
                                     android:id="@+id/LinearLayout01"
@@ -220,7 +220,7 @@
                                     android:layout_gravity="center"
                                     android:text="@string/sdcard"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textColor="#666" />
+                                    android:textColor="#ccc" />
 
                                 <LinearLayout
                                     android:id="@+id/LinearLayout09"

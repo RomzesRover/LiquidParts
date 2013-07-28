@@ -67,7 +67,7 @@
                                     android:layout_gravity="center"
                                     android:text="@string/sens"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textColor="#666" />
+                                    android:textColor="#ccc" />
 
                                 <LinearLayout
                                     android:id="@+id/LinearLayout12"
@@ -133,7 +133,7 @@
                                     android:layout_gravity="center"
                                     android:text="@string/noise"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textColor="#666" />
+                                    android:textColor="#ccc" />
 
                                 <LinearLayout
                                     android:id="@+id/LinearLayout13"
@@ -235,7 +235,7 @@
                                     android:layout_gravity="center"
                                     android:text="@string/hf"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textColor="#666" />
+                                    android:textColor="#ccc" />
 
                                 <LinearLayout
                                     android:id="@+id/LinearLayout16"
@@ -284,7 +284,7 @@
                                     android:layout_gravity="center"
                                     android:text="@string/vibtime"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textColor="#666" />
+                                    android:textColor="#ccc" />
 
                                 <LinearLayout
                                     android:id="@+id/LinearLayout01"
@@ -351,7 +351,7 @@
                                     android:layout_gravity="center"
                                     android:text="@string/sens"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textColor="#666" />
+                                    android:textColor="#ccc" />
 
                                 <LinearLayout
                                     android:id="@+id/LinearLayout04"
