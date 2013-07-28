@@ -14,15 +14,15 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Holo" >
         <activity
-            android:name="com.example.liquidparts.MainActivity"
+            android:name="com.BBsRs.liquidparts.MainActivity"
             android:label="@string/app_name" android:screenOrientation="portrait">
         </activity>
         
         <activity
-            android:name="com.example.liquidparts.LiquidPartsActivity"
+            android:name="com.BBsRs.liquidparts.LiquidPartsActivity"
             android:label="@string/app_name" android:screenOrientation="portrait">
         </activity>
-        <activity android:name="com.example.liquidparts.HelpActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.BBsRs.liquidparts.HelpActivity" android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
