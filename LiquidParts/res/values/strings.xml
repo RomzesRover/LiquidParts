@@ -9,28 +9,33 @@
         <item >Swap</item>
     </string-array>
     <string-array name="help">
-        <item >f.a.q.</item>
-        <item >problems</item>
-        <item >donate</item>
+        <item >F.A.Q.</item>
+        <item >Help</item>
+        <item >Donate</item>
     </string-array>
     <string-array name="info">
         <item >&lt;b&gt;How does Liquid Parts work?&lt;/b&gt;&lt;br&gt;
-It works by editing system files, with help super user. So if you want use it you need to get root rights.&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Who is developer of this app?&lt;/b&gt;&lt;br&gt;
-Virgin developer Suxsem, after Thepasto, developer of this version RomzesRover&lt;br&gt;&lt;br&gt;
-&lt;b&gt;What can I do here&lt;/b&gt;&lt;br&gt;
+This application changes the system settings. If you want use it you need to get root rights.&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Who was developing application?&lt;/b&gt;&lt;br&gt;
+The first developer was Suxsem, then Thepasto continued development. The developer of this version of the app - RomzesRover&lt;br&gt;&lt;br&gt;
+&lt;b&gt;What could this application?&lt;/b&gt;&lt;br&gt;
 • Edit sensivity for touchscreen and for softkeys&lt;br&gt;
 • Edit noise for touchscreen&lt;br&gt;
-• Turn on or turn off for Haptick Feedback&lt;br&gt;
+• Turn on/off Haptick Feedback&lt;br&gt;
 • Edit vibration strenght for softkeys&lt;br&gt;
-• Turn on or turn off for swap&lt;br&gt;
+• Turn on/off swap&lt;br&gt;
 • Edit swappiness&lt;br&gt;
-• edit sdCardReadAhead</item>
- <item >&lt;b&gt;I can\'t apply new settings&lt;/b&gt;&lt;br&gt;
+• edit sdCardReadAhead
+&lt;b&gt;Sensivity and Noise&lt;/b&gt;&lt;br&gt;
+The smaller the value of the sensitivity and the noise that operates responsive screen. Caution: too low values can result to false positives.&lt;br&gt;&lt;br&gt;
+&lt;b&gt;What is Swapinness&lt;/b&gt;&lt;br&gt;
+This is the technology transfer of RAM to swap. A value of 0 will give greater responsiveness and less free memory. A value of 100 will give more memory, but the system will slow down.&lt;br&gt;&lt;br&gt;</item>
+ <item >&lt;b&gt;If settings can\'t apply&lt;/b&gt;&lt;br&gt;
 • Try to check does you grant superuser rights to this app&lt;br&gt;
 • Try to restart this app&lt;br&gt;&lt;br&gt;
 &lt;b&gt;After applying new settings touch become crazy&lt;/b&gt;&lt;br&gt;
 • Try to return the settings to default&lt;br&gt;
+• Make a system wipe&lt;br&gt;
 • Flash stock rom from 2.1 or 2.2</item>
 	<item>&lt;b&gt;RomzesRover:&lt;/b&gt; (current developer)&lt;br&gt;
 • PayPal: romzesrover@gmail.com&lt;br&gt;		
@@ -62,7 +67,7 @@ Virgin developer Suxsem, after Thepasto, developer of this version RomzesRover&l
     <string name="enabled">Enabled</string>
     <string name="Swappiness">Swappiness</string>
     <string name="other">Other</string>
-    <string name="sdcard">SdCardReadAhead</string>
+    <string name="sdcard">SDCardReadAhead</string>
     <string name="lowMem">LowMemoryKillerFix (for A1)</string>
 
 <string name="tfsf">[25-75]</string>

@@ -9,29 +9,33 @@
         <item >Свап</item>
     </string-array>
     <string-array name="help">
-        <item >Ч.а.в.о.</item>
-        <item >Проблемы</item>
-        <item >пожертвовать</item>
+        <item >F.A.Q.</item>
+        <item >Помощь</item>
+        <item >Пожертвования</item>
     </string-array>
     <string-array name="info">
         <item >&lt;b&gt;Как Liquid Parts работает?&lt;/b&gt;&lt;br&gt;
-Оно работает изменяя системные файлы, благодаря Руту. Так, что, вы нужно дать разрешение.&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Кто разработчик этого приложения?&lt;/b&gt;&lt;br&gt;
-Первый разработчик Suxsem, потом Thepasto, Разработчик именно этого приложения RomzesRover&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Что я могу тут делать ?&lt;/b&gt;&lt;br&gt;
-• Изменять чувствительность тач-скрина и нажних кнопок&lt;br&gt;
-• Изменять шум тач-скрина&lt;br&gt;
+Приложение изменяет системные настройки. Для работы приложения, Вам нужно дать разрешение на root.&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Кто занимался разработкой приложения?&lt;/b&gt;&lt;br&gt;
+Первым разработчиком был Suxsem, потом разработку продолжил Thepasto. Разработчик этой версии приложения - RomzesRover&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Что может данное приложение?&lt;/b&gt;&lt;br&gt;
+• Изменять чувствительность экрана и сенсорных кнопок&lt;br&gt;
 • Выключать или включать виброотдачу&lt;br&gt;
-• Изменять силу вибрации нижних кнопок&lt;br&gt;
+• Изменять силу вибрации сенсорных кнопок&lt;br&gt;
 • Выключать или включать свап&lt;br&gt;
-• Изменять свапиннес&lt;br&gt;
-• Изменять sdCardReadAhead</item>
- <item >&lt;b&gt;Я не могу применить настройки&lt;/b&gt;&lt;br&gt;
-• Удостоверьтесь, что вы дали права Рут&lt;br&gt;
+• Изменять Swapinness&lt;br&gt;
+• Изменять размер кэша SD-карты
+&lt;b&gt;Чувствительность и Шум&lt;/b&gt;&lt;br&gt;
+Чем меньше значение чувствительности и шума, тем отзывчивее работает экран. Осторожно: слишком низкие значения могут привести к ложным срабатываниям.&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Что такое Swapinness?&lt;/b&gt;&lt;br&gt;
+Это технология переноса оперативной памяти в файл-подкачки. Значение 0 даст большую отзывчивость системы и меньше свободной памяти. Значение 100 даст больше свободной памяти, но система замедлится.</item>
+ <item >&lt;b&gt;Если настройки не меняются:&lt;/b&gt;&lt;br&gt;
+• Удостоверьтесь, что Вы дали права root&lt;br&gt;
 • Попробуйте перезапустить приложение&lt;br&gt;&lt;br&gt;
 &lt;b&gt;После применения новых настроек тач-скрин стал сходить с ума&lt;/b&gt;&lt;br&gt;
 • Постарайтесь вернуть настройки на стандартные&lt;br&gt;
-• Прошить сток 2.1 или 2.2</item>
+• Сделайте полный вайп&lt;br&gt;
+• Прошейте стоковые 2.1 или 2.2</item>
 	<item>&lt;b&gt;RomzesRover:&lt;/b&gt; (Текущий разработчик)&lt;br&gt;
 • PayPal: romzesrover@gmail.com&lt;br&gt;		
 • Yandex money: 41001630559136&lt;br&gt;
@@ -55,14 +59,14 @@
     <string name="hf">Виброотдача</string>
     <string name="softk">Кнопки снизу</string>
     <string name="noise">Шум</string>
-    <string name="touchscreen">Тач-скрин</string>
+    <string name="touchscreen">Экран</string>
     <string name="help">Помощь</string>
     <string name="save">Сохранить и применить</string>
     <string name="swap">Свап</string>
     <string name="enabled">Включено</string>
-    <string name="Swappiness">Сваппинес</string>
+    <string name="Swappiness">Swapinness</string>
     <string name="other">Другое</string>
-    <string name="sdcard">SdCardReadAhead</string>
+    <string name="sdcard">Кэш SD-карты</string>
     <string name="lowMem">LowMemoryKillerFix (for A1)</string>
 
 </resources>
