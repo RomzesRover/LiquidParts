@@ -28,7 +28,7 @@ public class Tweaks extends Fragment {
 		
 		View page = inflater.inflate(R.layout.one, null);
 		
-		//Чувствительность
+		//Sensivity
         final EditText sensEd = (EditText)page.findViewById(R.id.editTextSens);
         sensEd.setText(String.valueOf(sens));
         sensEd.setOnFocusChangeListener(new OnFocusChangeListener(){
@@ -95,7 +95,7 @@ public class Tweaks extends Fragment {
         	
         });
         
-        //чувствительность софт клавиш
+        //sensivity for hard keys
         final EditText SoftSensEd = (EditText)page.findViewById(R.id.editTextSoftNoise);
         SoftSensEd.setText(String.valueOf(threshold));
         SoftSensEd.setOnFocusChangeListener(new OnFocusChangeListener(){

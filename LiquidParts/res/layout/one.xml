@@ -84,7 +84,7 @@
                                         android:layout_weight="1"
                                         android:gravity="right"
                                         android:paddingRight="10dp"
-                                        android:text="[25-75]"
+                                        android:text="@string/tfsf"
                                         android:textAppearance="?android:attr/textAppearanceSmall"
                                         android:textColor="#AAA" />
 
@@ -150,7 +150,7 @@
                                         android:layout_weight="1"
                                         android:gravity="right"
                                         android:paddingRight="10dp"
-                                        android:text="[50-75]"
+                                        android:text="@string/fzsf"
                                         android:textAppearance="?android:attr/textAppearanceSmall"
                                         android:textColor="#AAA" />
 
@@ -301,7 +301,7 @@
                                         android:layout_weight="1"
                                         android:gravity="right"
                                         android:paddingRight="10dp"
-                                        android:text="[10-99]"
+                                        android:text="@string/oznn"
                                         android:textAppearance="?android:attr/textAppearanceSmall"
                                         android:textColor="#AAA" />
 
@@ -368,7 +368,7 @@
                                         android:layout_weight="1"
                                         android:gravity="right"
                                         android:paddingRight="10dp"
-                                        android:text="[15-20]"
+                                        android:text="@string/oftz"
                                         android:textAppearance="?android:attr/textAppearanceSmall"
                                         android:textColor="#AAA" />
 

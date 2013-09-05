@@ -35,7 +35,7 @@ public class Swap extends Fragment {
 		
 		View page = inflater.inflate(R.layout.two, null);
 		
-		//вторая страница
+		//second page
         page = inflater.inflate(R.layout.two, null);
         //checkBox
         CheckBox SwapBox = (CheckBox)page.findViewById(R.id.checkBoxSwap);
@@ -105,7 +105,7 @@ public class Swap extends Fragment {
 		
 	}
 	
-	//считывание данных для 2ой стр
+	//reading data for second page
 	public void readConfig2(){
 		String sdswap="Not Found";
 		String swappi="";
@@ -116,7 +116,7 @@ public class Swap extends Fragment {
 		swappiness=swappi;
 		sdahead = BashCommand.doCmds("sh","cat /sys/block/mmcblk0/bdi/read_ahead_kb").replaceAll ("\n", "");
 	}
-	//сохранение и применение второй строницы!!!!
+	//save and apply new settins
 	public void writeChanges2(){
 		SharedPreferences settingsA2sd = getActivity().getSharedPreferences("lpa2sd", Context.MODE_PRIVATE);
     	String sw = settingsA2sd.getString("sdswap", "Not Found");

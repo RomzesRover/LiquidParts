@@ -65,4 +65,10 @@ Virgin developer Suxsem, after Thepasto, developer of this version RomzesRover&l
     <string name="sdcard">SdCardReadAhead</string>
     <string name="lowMem">LowMemoryKillerFix (for A1)</string>
 
+<string name="tfsf">[25-75]</string>
+<string name="fzsf">[50-75]</string>
+<string name="oznn">[10-99]</string>
+<string name="oftz">[15-20]</string>
+<string name="zonn">[01-99]</string>
+
 </resources>

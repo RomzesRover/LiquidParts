@@ -18,7 +18,6 @@ package com.astuetz.viewpager.extensions;
 
 import java.util.Locale;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -210,7 +209,6 @@ public class PagerSlidingTabStrip extends HorizontalScrollView {
 
 		getViewTreeObserver().addOnGlobalLayoutListener(new OnGlobalLayoutListener() {
 
-			@SuppressLint("NewApi")
 			@Override
 			public void onGlobalLayout() {
 
