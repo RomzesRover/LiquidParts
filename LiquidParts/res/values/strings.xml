@@ -25,11 +25,11 @@ The first developer was Suxsem, then Thepasto continued development. The develop
 • Edit vibration strenght for softkeys&lt;br&gt;
 • Turn on/off swap&lt;br&gt;
 • Edit swappiness&lt;br&gt;
-• edit sdCardReadAhead
+• edit sdCardReadAhead&lt;br&gt;&lt;br&gt;
 &lt;b&gt;Sensivity and Noise&lt;/b&gt;&lt;br&gt;
 The smaller the value of the sensitivity and the noise that operates responsive screen. Caution: too low values can result to false positives.&lt;br&gt;&lt;br&gt;
 &lt;b&gt;What is Swapinness&lt;/b&gt;&lt;br&gt;
-This is the technology transfer of RAM to swap. A value of 0 will give greater responsiveness and less free memory. A value of 100 will give more memory, but the system will slow down.&lt;br&gt;&lt;br&gt;</item>
+This is the technology transfer of RAM to swap. A value of 0 will give greater responsiveness and less free memory. A value of 100 will give more memory, but the system will slow down.</item>
  <item >&lt;b&gt;If settings can\'t apply&lt;/b&gt;&lt;br&gt;
 • Try to check does you grant superuser rights to this app&lt;br&gt;
 • Try to restart this app&lt;br&gt;&lt;br&gt;
