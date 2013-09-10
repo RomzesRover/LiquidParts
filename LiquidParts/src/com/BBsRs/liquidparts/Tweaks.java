@@ -1,5 +1,9 @@
 package com.BBsRs.liquidparts;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -149,7 +153,17 @@ public class Tweaks extends Fragment {
 		    
 		    
 		    //softKeys
-		    haptic=settingsTweaks.getBoolean("haptic", true);
+			  try {
+				String hf=readFileValue("/sys/module/avr/parameters/vibr");
+				if (hf.equals("1")){
+					 haptic=true;
+				} else {
+					 haptic=false;
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+				haptic=settingsTweaks.getBoolean("haptic", true);
+			}
 		    vibTime=settingsTweaks.getInt("vibdel", 18);
 		    threshold=settingsTweaks.getInt("threshold", 30);
 		    
@@ -176,5 +190,18 @@ public class Tweaks extends Fragment {
 		  prefEditor.putInt("threshold", threshold);
 		  prefEditor.commit();
 		  BashCommand.doCmds("su","sh /data/local/userinit.d/01LPScripts");
+	  }
+	
+	  public String readFileValue(String file)throws java.io.IOException{
+			 
+		  BufferedReader reader = new BufferedReader(new FileReader(file));
+		  String line, results="";
+		  line = reader.readLine();
+		  while(line != null) {
+			  results += line;
+		      line = reader.readLine();
+		  }
+		  reader.close();
+		  return results;
 	  }
 }

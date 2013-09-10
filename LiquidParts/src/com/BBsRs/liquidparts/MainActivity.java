@@ -1,5 +1,7 @@
 package com.BBsRs.liquidparts;
 
+import java.io.File;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -11,7 +13,6 @@ import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.BBsRs.liquidparts.R;
 import com.astuetz.viewpager.extensions.PagerSlidingTabStrip;
 
 public class MainActivity extends FragmentActivity  {
@@ -23,6 +24,15 @@ public class MainActivity extends FragmentActivity  {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
+		//get ready file system to changes
+		try {
+			System.out.println(checkFS());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		setContentView(R.layout.activity_main);
 		getActionBar().setHomeButtonEnabled(true);
 		getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -65,6 +75,19 @@ public class MainActivity extends FragmentActivity  {
 
 	      }
 		return true;
+	  }
+	
+	  public boolean checkFS() throws Exception{
+		  boolean fsready=false;
+		  File userinitdir = new File("/data/local/userinit.d");
+		   
+		  if (userinitdir.getAbsoluteFile().exists()) {
+			  fsready=true;
+		  } else {
+			  BashCommand.doCmds("su","mkdir /data/local/userinit.d && touch /data/local/userinit.d/01LPScripts chmod -R 755 /data/local/userinit.d && chmod 755 /data/local/userinit.d/01LPScripts");
+			  fsready=true;
+		  }
+		  return fsready;
 	  }
 	
 	public class MyPagerAdapter extends FragmentPagerAdapter {
