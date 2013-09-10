@@ -18,7 +18,7 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
-import com.BBsRs.liquidparts.R;
+import com.BBsRs.liquidpartsPaid.R;
 
 public class Swap extends Fragment {
 	
