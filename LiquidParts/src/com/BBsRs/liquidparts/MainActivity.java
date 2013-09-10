@@ -13,7 +13,7 @@ import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.BBsRs.liquidpartsPaid.R;
+import com.BBsRs.liquidparts.R;
 import com.astuetz.viewpager.extensions.PagerSlidingTabStrip;
 
 public class MainActivity extends FragmentActivity  {

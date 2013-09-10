@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import com.BBsRs.liquidpartsPaid.R;
+import com.BBsRs.liquidparts.R;
 
 public class Help extends Fragment{
 	

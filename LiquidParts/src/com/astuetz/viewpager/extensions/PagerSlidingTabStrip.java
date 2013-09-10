@@ -40,7 +40,7 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.BBsRs.liquidpartsPaid.R;
+import com.BBsRs.liquidparts.R;
 
 public class PagerSlidingTabStrip extends HorizontalScrollView {
 

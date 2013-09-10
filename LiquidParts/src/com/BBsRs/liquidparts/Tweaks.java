@@ -18,7 +18,7 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.Toast;
-import com.BBsRs.liquidpartsPaid.R;
+import com.BBsRs.liquidparts.R;
 
 public class Tweaks extends Fragment {
 	

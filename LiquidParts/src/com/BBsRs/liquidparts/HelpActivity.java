@@ -9,7 +9,7 @@ import android.support.v4.view.ViewPager;
 import android.util.TypedValue;
 import android.view.MenuItem;
 
-import com.BBsRs.liquidpartsPaid.R;
+import com.BBsRs.liquidparts.R;
 import com.astuetz.viewpager.extensions.PagerSlidingTabStrip;
 
 public class HelpActivity extends FragmentActivity {
@@ -17,7 +17,7 @@ public class HelpActivity extends FragmentActivity {
 	private PagerSlidingTabStrip tabs;
 	private ViewPager pager;
 	private MyPagerAdapter adapter;
-	boolean paid=false;
+	boolean paid=true;
 	
 	/** Called when the activity is first created. */
 	@Override
