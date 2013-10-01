@@ -1,4 +1,4 @@
-package com.BBsRs.liquidparts;
+package com.BBsRs.liquidpartsNew;
 
 import java.io.File;
 
@@ -13,6 +13,7 @@ import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.BBsRs.liquidpartsNew.R;
 import com.astuetz.viewpager.extensions.PagerSlidingTabStrip;
 
 public class MainActivity extends FragmentActivity  {

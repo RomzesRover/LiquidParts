@@ -1,4 +1,4 @@
-package com.BBsRs.liquidparts;
+package com.BBsRs.liquidpartsNew;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,7 +9,7 @@ import android.support.v4.view.ViewPager;
 import android.util.TypedValue;
 import android.view.MenuItem;
 
-import com.BBsRs.liquidparts.R;
+import com.BBsRs.liquidpartsNew.R;
 import com.astuetz.viewpager.extensions.PagerSlidingTabStrip;
 
 public class HelpActivity extends FragmentActivity {

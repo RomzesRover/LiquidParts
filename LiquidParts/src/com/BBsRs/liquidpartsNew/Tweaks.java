@@ -1,4 +1,4 @@
-package com.BBsRs.liquidparts;
+package com.BBsRs.liquidpartsNew;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -18,7 +18,7 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.Toast;
-import com.BBsRs.liquidparts.R;
+import com.BBsRs.liquidpartsNew.R;
 
 public class Tweaks extends Fragment {
 	

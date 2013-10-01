@@ -1,4 +1,4 @@
-package com.BBsRs.liquidparts;
+package com.BBsRs.liquidpartsNew;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -16,6 +16,7 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.ImageView;
 import android.widget.TableLayout;
 import android.widget.TextView;
+import com.BBsRs.liquidpartsNew.R;
 
 public class Advanced extends Fragment{
 	View view;
