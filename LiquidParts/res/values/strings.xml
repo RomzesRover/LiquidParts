@@ -7,6 +7,7 @@
     <string-array name="settings">
         <item >Tweaks</item>
         <item >Swap</item>
+        <item >Voltage</item>
     </string-array>
     <string-array name="help">
         <item >F.A.Q.</item>
@@ -80,6 +81,12 @@ This is the technology transfer of RAM to swap. A value of 0 will give greater r
     <string name="other">Other</string>
     <string name="sdcard">SDCardReadAhead</string>
     <string name="lowMem">LowMemoryKillerFix (for A1)</string>
+    
+    <string name="svs">Customized SVS</string>
+    <string name="suggested_vdd">Set Suggested</string>
+    <string name="default_vdd">Reset Default</string>
+    <string name="set_on_boot">Set On Boot</string>
+    <string name="custom_svs">Customized SVS</string>
 
 <string name="tfsf">[25-75]</string>
 <string name="fzsf">[50-75]</string>

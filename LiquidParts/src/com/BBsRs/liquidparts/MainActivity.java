@@ -13,7 +13,6 @@ import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.BBsRs.liquidparts.R;
 import com.astuetz.viewpager.extensions.PagerSlidingTabStrip;
 
 public class MainActivity extends FragmentActivity  {
@@ -119,6 +118,8 @@ public class MainActivity extends FragmentActivity  {
 			case 1:
 				newContent = new Swap();
 				break;
+			case 2:
+				newContent = new Advanced();
 			}
 			return newContent;
 			
