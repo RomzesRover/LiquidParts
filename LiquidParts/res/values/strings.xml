@@ -26,7 +26,9 @@ The first developer was Suxsem, then Thepasto continued development. The develop
 • Edit vibration strenght for softkeys&lt;br&gt;
 • Turn on/off swap&lt;br&gt;
 • Edit swappiness&lt;br&gt;
-• edit sdCardReadAhead&lt;br&gt;&lt;br&gt;
+• Edit sdCardReadAhead&lt;br&gt;
+• Edit cpu voltage&lt;br&gt;
+• Donate to developer&lt;br&gt;&lt;br&gt;
 &lt;b&gt;Sensivity and Noise&lt;/b&gt;&lt;br&gt;
 The smaller the value of the sensitivity and the noise that operates responsive screen. Caution: too low values can result to false positives.&lt;br&gt;&lt;br&gt;
 &lt;b&gt;What is Swapinness&lt;/b&gt;&lt;br&gt;
@@ -39,17 +41,6 @@ This is the technology transfer of RAM to swap. A value of 0 will give greater r
 • Make a system wipe&lt;br&gt;
 • Flash stock rom from 2.1 or 2.2</item>
 	<item>&lt;b&gt;RomzesRover:&lt;/b&gt; (current developer)&lt;br&gt;
-• PayPal: romzesrover@gmail.com&lt;br&gt;		
-• Yandex money: 41001630559136&lt;br&gt;
-• Play market: &lt;a href="market://search?q=pub:BigBrother\'sRover\'s&gt;BigBrother\'sRover\'s&lt;/a&gt;&lt;br&gt;&lt;br&gt;
-&lt;b&gt;ThePasto:&lt;/b&gt;&lt;br&gt;
-• PayPal: thepasto@gmail.com&lt;br&gt;&lt;br&gt;
-&lt;b&gt;[ray:&lt;/b&gt;&lt;br&gt;
-• WebMoney: R300598343390&lt;br&gt;
-• WebMoney: Z939099130798
-	    </item>
-	    	<item>&lt;b&gt;Thank you for your purchase applications via google play ($ 1). You make the firmware better!&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-	    	    &lt;b&gt;RomzesRover:&lt;/b&gt; (current developer)&lt;br&gt;
 • PayPal: romzesrover@gmail.com&lt;br&gt;		
 • Yandex money: 41001630559136&lt;br&gt;
 • Play market: &lt;a href="market://search?q=pub:BigBrother\'sRover\'s&gt;BigBrother\'sRover\'s&lt;/a&gt;&lt;br&gt;&lt;br&gt;
@@ -87,6 +78,9 @@ This is the technology transfer of RAM to swap. A value of 0 will give greater r
     <string name="default_vdd">Reset Default</string>
     <string name="set_on_boot">Set On Boot</string>
     <string name="custom_svs">Customized SVS</string>
+    
+    <string name="donate">Donate to developer</string>
+    <string name="donated">Thank you for your purchase applications via google play ($ 1). You make the firmware better!\n</string>
 
 <string name="tfsf">[25-75]</string>
 <string name="fzsf">[50-75]</string>

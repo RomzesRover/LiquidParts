@@ -25,7 +25,9 @@
 • Изменять силу вибрации сенсорных кнопок&lt;br&gt;
 • Выключать или включать свап&lt;br&gt;
 • Изменять Swapinness&lt;br&gt;
-• Изменять размер кэша SD-карты&lt;br&gt;&lt;br&gt;
+• Изменять размер кэша SD-карты&lt;br&gt;
+• Изменять вольтаж cpu&lt;br&gt;
+• Пожертвовать разработчику&lt;br&gt;&lt;br&gt;
 &lt;b&gt;Чувствительность и Шум&lt;/b&gt;&lt;br&gt;
 Чем меньше значение чувствительности и шума, тем отзывчивее работает экран. Осторожно: слишком низкие значения могут привести к ложным срабатываниям.&lt;br&gt;&lt;br&gt;
 &lt;b&gt;Что такое Swapinness?&lt;/b&gt;&lt;br&gt;
@@ -38,17 +40,6 @@
 • Сделайте полный вайп&lt;br&gt;
 • Прошейте стоковые 2.1 или 2.2</item>
 	<item>&lt;b&gt;RomzesRover:&lt;/b&gt; (Текущий разработчик)&lt;br&gt;
-• PayPal: romzesrover@gmail.com&lt;br&gt;		
-• Yandex money: 41001630559136&lt;br&gt;
-• Play market: &lt;a href="market://search?q=pub:BigBrother\'sRover\'s&gt;BigBrother\'sRover\'s&lt;/a&gt;&lt;br&gt;&lt;br&gt;
-&lt;b&gt;ThePasto:&lt;/b&gt;&lt;br&gt;
-• PayPal: thepasto@gmail.com&lt;br&gt;&lt;br&gt;
-&lt;b&gt;[ray:&lt;/b&gt;&lt;br&gt;
-• WebMoney: R300598343390&lt;br&gt;
-• WebMoney: Z939099130798
-	    </item>
-	    <item>&lt;b&gt;Спасибо за вашу покупку приложения через google play (1$). Вы делаете прошивку лучше!&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-	        &lt;b&gt;RomzesRover:&lt;/b&gt; (Текущий разработчик)&lt;br&gt;
 • PayPal: romzesrover@gmail.com&lt;br&gt;		
 • Yandex money: 41001630559136&lt;br&gt;
 • Play market: &lt;a href="market://search?q=pub:BigBrother\'sRover\'s&gt;BigBrother\'sRover\'s&lt;/a&gt;&lt;br&gt;&lt;br&gt;
@@ -86,5 +77,9 @@
     <string name="default_vdd">Стандартные</string>
     <string name="set_on_boot">Выставлять при загрузке</string>
     <string name="custom_svs">Индивидуальные SVS</string>
+    
+    <string name="donate">Пожертвовать разработчику</string>
+    <string name="donated">Спасибо за вашу покупку приложения через google play (1$). Вы делаете прошивку лучше!\n</string>
+    
 
 </resources>
